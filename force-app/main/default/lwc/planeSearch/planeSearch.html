@@ -1,0 +1,12 @@
+<template>
+    <div class="slds-m-bottom_small">
+        <lightning-card title="Search Your Plane">
+            <c-plane-search-form onplanetypeselect={planeTypeSelectHandler}></c-plane-search-form>
+        </lightning-card>
+    </div>
+    <div class="slds-m-bottom_small">
+        <lightning-card title="Search Your Plane">
+            <c-plane-search-result car-type-id={planeTypeId}></c-plane-search-result >
+        </lightning-card>
+    </div>
+</template>

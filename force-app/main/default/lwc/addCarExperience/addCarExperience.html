@@ -1,0 +1,15 @@
+<template>
+    <lightning-layout multiple-rows>
+        <lightning-layout-item size="12" padding="around-small">
+            <lightning-input-rich-text label="Title" onchange={handleTitleChange}></lightning-input-rich-text>
+        </lightning-layout-item>
+        <lightning-layout-item size="12" padding="around-small">
+            <lightning-input-rich-text label="Description" onchange={handleDescriptionChange}>
+            </lightning-input-rich-text>
+        </lightning-layout-item>
+        <lightning-layout-item size="12" padding="around-small">
+            <lightning-button label="Submit" onclick={addNewExperience}></lightning-button>
+        </lightning-layout-item>
+    </lightning-layout>
+
+</template>

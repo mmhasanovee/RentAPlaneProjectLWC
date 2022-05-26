@@ -1,0 +1,9 @@
+<template>
+    <lightning-layout horizontal-align="center">
+        <lightning-layout-item padding="horizontal-small">
+            <lightning-combobox variant="label-hidden" name="planeTypes" placehodler="Choose your plane"
+                onchange={handlePlaneTypeChange} value={selectedPlaneType} options={planeTypes} ></lightning-combobox>
+        </lightning-layout-item>
+        <lightning-layout-item aria-label="New" onclick={createNewPlaneType}></lightning-layout-item>
+    </lightning-layout>
+</template>
